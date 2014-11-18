@@ -1,4 +1,4 @@
-/* Kevin P. Barry [ta0kira@users.berlios.de], 24 April 2014 */
+/* Kevin P. Barry [ta0kira@gmail.com], 24 April 2014 */
 
 #include <stdio.h>
 #include <unistd.h>

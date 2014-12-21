@@ -237,6 +237,10 @@ use cpuset -l #, where # is the CPU number, starting at 0:
     )
   done
 
+If you use the above script with parallel-exec running one command-line per
+core, it will keep one process running on each core until all of the commands
+are exhausted.
+
 
 ***** THE END *****
 

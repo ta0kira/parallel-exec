@@ -1,3 +1,11 @@
+The parallel-exec program is a Linux/FreeBSD command-line utility for executing
+multiple command-lines in parallel. To install:
+
+  make && sudo make install
+
+
+***** Overview *****
+
 Suppose you want to execute a long-running script/program a large number of 
 times. For example:
 
@@ -231,3 +239,5 @@ use cpuset -l #, where # is the CPU number, starting at 0:
 
 
 ***** THE END *****
+
+Kevin P. Barry [ta0kira@gmail.com], 20141221
